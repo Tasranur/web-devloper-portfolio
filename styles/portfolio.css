@@ -1,3 +1,7 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
 .open-sans-normal {
   font-family: 'Open Sans', sans-serif;
   font-optical-sizing: auto;
@@ -12,13 +16,14 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 800px;
+  width: 1500px;
   margin: 0 auto;
 }
 .header {
-  background-image: url(./images/developer.png), url(./images/header_bg.png);
+  background-image: url(/images/developer.png), url(/images/header_bg.png);
   background-repeat: no-repeat;
   background-position: top left, right bottom;
+  margin: 20px;
 }
 .text-primary {
   color: #fd6e0a;
@@ -26,6 +31,7 @@ nav {
 .nav-tittle {
   font-weight: 800px;
   font-size: 45px;
+  margin-left: 13%;
 }
 nav ul li {
   list-style: none;
@@ -33,15 +39,21 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   font-size: 20px;
+  justify-content: space-around;
+  margin-right: 50px;
+}
+.nav-b {
+  margin-right: 150px;
 }
 .dark-2 {
   color: #474747;
 }
 nav ul {
   display: flex;
-  /* margin: 48px 200px; */
+  margin: 48px 200px;
   gap: 10px;
   align-items: center;
+  justify-content: center;
 }
 .btn-primary {
   background-color: #fd6e0a;
@@ -60,6 +72,7 @@ nav ul {
 .banner-greetings {
   font-size: 45px;
   font-weight: 600px;
+  line-height: 1px;
 }
 .banner-tittle {
   font-size: 85px;
@@ -90,6 +103,7 @@ main {
   border-radius: 10px;
   padding: 130px 150px;
   margin-top: 130px;
+  margin-bottom: 80px;
   text-align: center;
 }
 .about-items {
@@ -98,11 +112,14 @@ main {
 }
 .text-center {
   text-align: center;
+  margin-bottom: 60px;
 }
+
 .skills-container {
   display: flex;
   justify-content: space-around;
   gap: 24px;
+  margin-bottom: 80px;
 }
 
 .skill {
@@ -111,5 +128,54 @@ main {
 }
 .resume-container {
   display: flex;
-  gap: 20px;
+  gap: 60px;
+}
+.resume {
+  margin-top: 40px;
+}
+.resume-tittle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.experience-sub-title {
+  color: #757575;
+}
+.cv-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.footer-sec {
+  display: flex;
+  gap: 40px;
+}
+.input {
+  display: block;
+  margin: 80px 250px 200px 100px;
+}
+input {
+  display: block;
+  margin-bottom: 20px;
+}
+.lets-connect {
+  margin: 80px 200px 250px 100px;
+}
+.i-d {
+  background-color: white;
+  border: none;
+  padding: 10px;
+
+  width: 220px;
+}
+.lets-connect button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.in-b {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
 }
